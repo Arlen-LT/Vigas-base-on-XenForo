@@ -1,0 +1,504 @@
+/* ==================================================================
+	1.0 General Styles
+================================================================== */
+
+body {
+	font-family: 'Nunito', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	line-height: 21px;
+	color: #333;
+	background-color: #fff;
+	position: relative;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Nunito', Helvetica, sans-serif;
+	margin-top: 0;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+h1 {
+	font-size: 54px;
+	line-height: 62px;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 40px;
+	line-height: 48px;
+	font-weight: 300;
+}
+
+h3 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 300;
+}
+
+h4 {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 300;
+}
+
+h5 {
+	font-size: 18px;
+	line-height: 24px;
+	font-weight: 500;
+}
+
+h6 {
+	font-size: 12px;
+	line-height: 24px;
+	font-weight: 700;
+}
+
+a:hover, a > *:hover {
+	text-decoration: none;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	color: #55ACEE;
+	font-weight: bold;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: #0f0f0f;
+	box-shadow: 1px 1px #333333;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+p span, ul li span {
+	color: #00b3ff;
+}
+
+a {
+	outline: none;
+	-moz-transition: all 300ms linear;
+	-ms-transition: all 300ms linear;
+	-o-transition: all 300ms linear;
+	-webkit-transition: all 300ms linear;
+	transition: all 300ms linear;
+}
+
+a:hover,
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol li span {
+	color: #00b3ff;
+}
+
+ul.list {
+	list-style-type: disc;
+	margin-left: 20px;
+}
+
+code {
+	padding: 2px 5px;
+}
+
+.highlight {
+	color: #55acee;
+}
+
+.img-center {
+	display: block;
+	margin: 0 auto;
+}
+
+
+/* ==================================================================
+	2.0 Layout
+================================================================== */
+
+@media (min-width: 1330px){
+	.container {
+		width: auto;
+		max-width: 1300px;
+	}
+}
+
+@media (min-width: 1430px){
+	.container {
+		width: auto;
+		max-width: 1400px;
+	}
+}
+
+section,
+.section {
+	position: relative;
+	overflow: hidden;
+	padding: 90px 0;
+}
+
+.section-container {
+	position: relative;
+}
+
+.bt-docs-content.col-md-9 {
+	padding-left: 30px;
+}
+
+.bt-docs-content li {
+	padding: 8px 0;
+}
+
+.bt-docs-content img {
+	padding-top: 14px;
+	padding-bottom: 7px;
+}
+
+.bt-docs-section {
+	padding-top: 90px;
+	position: relative;
+}
+
+.bt-docs-box {
+	padding-top: 50px;
+	position: relative;
+}
+
+.bt-docs-box:first-child {
+	padding-top: 0;
+}
+
+.box-secondary {
+	padding-bottom: 30px;
+}
+
+.box-secondary:last-child {
+	padding-bottom: 0;
+}
+
+.bt-docs-box p:last-child,
+.bt-docs-box div:last-child .syntaxhighlighter {
+	margin-bottom: 0 !important;
+}
+
+
+/* ==================================================================
+	3.0 Header
+================================================================== */
+
+.site-nav {
+	margin: 0;
+	background: #fff;
+	border: 0;
+}
+
+.navbar-brand {
+	height: 70px;
+	color: #333;
+	font-size: 21px;
+	line-height: 40px;
+}
+.navbar-brand > img {
+	max-height: 100%;
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #00d2ff;
+  background-color: #fff;
+	box-shadow: inset 0 1px 0 #00d2ff;
+}
+
+.navbar-nav > li > a {
+    padding-left: 0;
+    padding-right: 0;
+	margin-left: 15px;
+    margin-right: 15px;
+	line-height: 40px;
+}
+
+/* ==================================================================
+	4.0 Page Title
+================================================================== */
+
+.page-title {
+	background: linear-gradient(to left, #3a7bd5, #00d2ff);
+	color: #fff;
+}
+
+.page-title p {
+	margin: 0;
+}
+
+@media screen and (min-width:992px){
+	body.mobile .page-title {
+		padding-top: 120px;
+	}
+	body.mobile .page-title-large {
+		padding-top: 200px;
+	}
+}
+
+
+/* ==================================================================
+	5.0 Sidebar
+================================================================== */
+.bt-docs-sc {
+	position: relative;
+}
+
+.bt-docs-sidebar {
+	position: relative;
+	overflow: hidden;
+	padding-top: 90px;
+	padding-bottom: 90px;
+	background: #282b32;
+}
+
+.bt-docs-sidebar .sidebar-title {
+	padding: 0 30px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 32px;
+	color: #fff;
+}
+
+.bt-docs-sidebar .nav>li>a {
+	border-radius: 0px;
+	background: transparent;
+	padding: 7px 30px;
+	color: #8d97a1;
+	-moz-transition: all 0.3s linear;
+	-ms-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	transition: all 0.3s linear;
+}
+
+.bt-docs-sidebar .nav>li>a:hover {
+	color: #fff;
+	background: rgb(41, 128, 185);
+}
+
+.bt-docs-sidebar .nav>li i.fa {
+    display: block;
+	float: right;
+	line-height: 28px;
+}
+
+.bt-docs-sidebar ul ul {
+    padding-bottom: 0;
+	padding-left: 15px;
+}
+
+
+/* ==================================================================
+	6.0 Footer
+================================================================== */
+.site-footer {
+	background: #f5f7f9;
+	padding: 30px 0;
+}
+
+.site-footer p {
+	margin: 0;
+}
+
+
+/* ==================================================================
+	7.0 syntaxhighlighter
+================================================================== */
+pre {
+	font-size: 14px;
+}
+
+pre[class*="language-"] {
+	margin-bottom: 30px !important;
+}
+
+pre[class*="language-"]:last-child {
+	margin-bottom: 0 !important;
+}
+
+:not(pre):not(code)>code[class*=language-],
+pre.syntaxbox,
+pre[class*=language-]{
+	border: 0;
+	border-left: 5px solid #3d7fdc;
+	border-radius: 0;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+
+
+/* ==================================================================
+	8.0 Other
+================================================================== */
+
+/* Table */
+.table {
+	border-color: #e5e7e9;
+	text-align: left;
+}
+.table > thead > tr > th {
+	background: #f5f7f9;
+	color: #333;
+	border-bottom: 0;
+	font-size: 14px;
+	text-transform: none;
+	border-color: #e5e7e9;
+}
+.table > thead > tr > th,
+.table > tbody > tr > td {
+	font-size: 15px;
+	font-weight: 400;
+	padding: 15px 20px;
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+	background: #fff;
+}
+
+.table-striped > tbody > tr:nth-child(even) > td,
+.table-striped > tbody > tr:nth-child(even) > th {
+	background: #f5f7f9;
+}
+
+.table>tbody>tr>td,
+.table>tbody>tr>th,
+.table>tfoot>tr>td,
+.table>tfoot>tr>th,
+.table>thead>tr>td,
+.table>thead>tr>th {
+	padding: 15px 20px;
+	border-top: 0;
+}
+
+.table.small-padding>tbody>tr>td,
+.table.small-padding>tbody>tr>th,
+.table.small-padding>tfoot>tr>td,
+.table.small-padding>tfoot>tr>th,
+.table.small-padding>thead>tr>td,
+.table.small-padding>thead>tr>th {
+	padding: 10px 15px;
+}
+
+.table-hover>tbody>tr:hover {
+    background-color: #f5f7f9;
+}
+
+.table-bordered>tbody>tr>td,
+.table-bordered>tbody>tr>th,
+.table-bordered>tfoot>tr>td,
+.table-bordered>tfoot>tr>th,
+.table-bordered>thead>tr>td,
+.table-bordered>thead>tr>th {
+    border: 1px solid #e5e7e9;
+}
+
+.backToTop {
+	display: block;
+	position: fixed;
+	bottom: 30px;
+	right: 30px;
+	width: 38px;
+	height: 38px;
+	background: #000a1e;
+	background: rgba(0, 10, 30, 0.7);
+	cursor: pointer;
+	z-index: 9000;
+	font-size: 18px;
+	line-height: 37px;
+	text-align: center;
+	color: #fff;
+	border: 0;
+	opacity: 0;
+	-webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.backToTop:hover,
+.backToTop:focus {
+	color: #fff
+}
+
+.backToTop.fadein {
+	opacity: 1;
+}
+
+h1[id] {
+    padding-top: 20px;
+    margin-top: 0;
+}
+
+h1[id]:first-child {
+    padding-top: 0;
+}
+
+h2.page-header {
+  padding-bottom: 15px;
+  margin: 0;
+	margin-bottom: 30px;
+  border-bottom: 1px solid #e5e7e9;
+	color: #282b32;
+}
+
+h3.page-header {
+    padding-bottom: 15px;
+    margin: 0;
+	margin-bottom: 30px;
+    border-bottom: 1px solid #e5e7e9;
+}
+
+.divider {
+    clear: both;
+    position: relative;
+	overflow: hidden;
+    width: 100%;
+    margin: 50px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.updates-list {
+	list-style: initial;
+}
+
+.show-grid {
+	overflow: hidden;
+}
+
+.show-grid [class^=col-], .show-grid [class^=col_] {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #f7f7f9;
+    border: 1px solid #e1e1e8;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.notoppadding {
+	padding-top: 0;
+}
+
+.mb20 {
+	margin-bottom: 20px !important;
+}

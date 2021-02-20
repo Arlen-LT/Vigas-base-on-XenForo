@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+
+		<title>Installation | ReMe Documentation</title>
+
+		<!-- META DATA -->
+		<meta http-equiv="content-type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+		<meta name="description" content="ReMe Documentation">
+
+		<!-- CSS Global Compulsory -->
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="documentation.css">
+
+		<!-- CSS Implementing Plugins -->
+		<link rel="stylesheet" href="syntax-highlighter/shCore.css">
+		<link rel="stylesheet" href="syntax-highlighter/shThemeDefault.css">
+		<link rel="stylesheet" href="css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/magnific-popup.css">
+
+		<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!--[if lt IE 9]>
+			<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+			<script src="js/respond.min.js"></script>
+		<![endif]-->
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/modernizr.js"></script>
+
+		<!-- FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Nunito:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic%7CRoboto:400,300,100,500,700' rel='stylesheet' type='text/css'>
+
+	</head>
+	<body>
+
+		<div class="main-container">
+
+			<div id="top"></div>
+
+			<header class="site-header">
+				<nav class="site-nav navbar navbar-default">
+					<div class="container">
+						<div class="navbar-header">
+							<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+								<span class="sr-only">Toggle navigation</span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+								<span class="icon-bar"></span>
+							</button>
+							<a class="navbar-brand" href="#">
+								<img src="img/logo.png" alt="ReMe Logo">
+							</a>
+						</div>
+						<div id="navbar" class="navbar-collapse collapse navbar-right">
+							<ul class="nav navbar-nav">
+								<li><a href="index.html">Home</a></li>
+								<li class="active"><a href="installation.html">Installation</a></li>
+								<li><a href="customization.html">Customization</a></li>
+								<li><a href="support.html">Support</a></li>
+							</ul>
+						</div>
+					</div>
+				</nav>
+			</header>
+
+			<section class="section page-title">
+				<div class="section-container">
+					<div class="container">
+						<h1>Documentation</h1>
+						<p class="lead">Using ReMe - A Powerfull Framework From DohTheme</p>
+					</div>
+				</div>
+			</section>
+
+			<section class="section notoppadding">
+				<div class="section-container">
+					<div class="container">
+						<div class="row">
+
+							<div class="col-md-3 bt-docs-sc">
+									<div class="bt-docs-sidebar">
+										<div class="sidebar-heading">
+											<h3 class="sidebar-title">Installation</h3>
+										</div>
+										<nav>
+											<ul class="nav nav-stacked bt-docs-sidenav">
+												<li><a class="scrollto" href="#docs-package">1. Package</a></li>
+												<li><a class="scrollto" href="#docs-installation">2. Installation</a></li>
+												<li><a class="scrollto" href="#docs-update">3. Update</a></li>
+											</ul>
+										</nav>
+									</div>
+								</div>
+
+							<div class="col-md-9 bt-docs-content">
+								<div class="bt-docs-section">
+
+									<div class="bt-docs-box first" id="docs-package">
+										<h2 class="page-header">1. Package</h2>
+										<p>
+											The package contains the following three folders: “Documentation”, “XMLs” and “upload”:
+										</p>
+										<ul class="ul-list mb20">
+											<li><code>“Documentation”</code> contains the style documentation</li>
+											<li><code>“01_Install_addon”</code> contain archive file to install the add-on for node background</li>
+											<li><code>“02_Import_style”</code> contain archive file to import the style for your XenForo version</li>
+										</ul>
+									</div>
+
+									<div class="bt-docs-box" id="docs-installation">
+										<h2 class="page-header">2. Installation</h2>
+										<p>To install the style you must follow these steps. It is very important to install the style as written bellow.</p>
+										<ol class="ul-list mb20">
+											<li>Log in to your forum administrator control panel, go to the <strong>Add-ons tab</strong> click <code>Install/upgrade from archive</code> click press “Browse”, find your add-on archive-file and click <strong>Upload</strong><br>
+												<img src="img/s-step-4.png" alt="#" class="img-responsive img-center"> <br>
+											</li>
+											<li>in Admincp, go to the <strong>Appearance tab — Styles — Import.</strong></li>
+											<li>Under the Import from uploaded XML or archive file section, press “Browse”, find your main style archive file <code>style-[THEME-NAME].zip</code> and import it by pressing “Import” button at the bottom without changing any other settings.
+													<br>
+													<img src="img/s-step-1.jpg" alt="#" class="img-responsive img-center">
+													<br>
+													<p><span class="label label-danger">Note</span> <strong>If style has different color schemes. You must install the core style file first before installing any other color schemes.</strong></p>
+											</li>
+											<li>Repeat This step for colors but set <strong>Child of style</strong> option and choose the core style name from dropdown menu.
+												When you complete importing you will see style hierarchy like that in Appearance tab — Styles
+													<br>
+													<img src="img/s-step-2.jpg" alt="#" class="img-responsive img-center">
+											</li>
+										</ol>
+									</div>
+
+
+									<div class="bt-docs-box" id="docs-update">
+										<h2 class="page-header">3. Update</h2>
+										<p>To update the style you must follow these steps.</p>
+										<ol class="ul-list mb20">
+											<li>Log in to your forum administrator control panel and go the <strong>Appearance tab — Styles — Import.</strong></li>
+											<li>Under the <strong>Import from uploaded XML or archive File</strong> section, press <strong>“Browse”</strong>, find your main style archive file,
+												set <strong>“Import as”</strong> option to <strong>“Overwrite style”</strong> and choose the core style name in the dropdown menu.</li>
+												<img src="img/s-step-3.jpg" alt="#" class="img-responsive img-center">
+										</ol>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div><!-- /.container -->
+				</div>
+			</section>
+
+			<!-- Footer -->
+			<footer class="site-footer">
+				<div class="section-container">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-12">
+								<p>Copyright &copy; 2020 by <a target="_blank" href="http://themeforest.net/user/dohtheme">DohTheme</a>. All rights reserved.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+
+			<a class="backToTop scrollto" href="#"><i class="fa fa-angle-up"></i></a>
+
+		</div>
+
+		<!-- JS -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="prism/prism.js"></script>
+		<script type="text/javascript" src="js/plugins.js"></script>
+		<script type="text/javascript" src="js/documentation.js"></script>
+
+	</body>
+</html>
