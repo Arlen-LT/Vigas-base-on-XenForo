@@ -1,6 +1,6 @@
 # Vigas-base-on-XenForo  
 This is a XenForo forum server package with a style "vigas".  
-###Environment:  
+### Environment:  
   PHP:8.0.2  
   Nginx:1.19.4  
   MySQL:8.0.23  
