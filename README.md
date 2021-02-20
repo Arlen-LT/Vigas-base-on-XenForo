@@ -12,6 +12,6 @@ Environment:
 **step 4.** import the file *style.xml* on the control panel  
 
 Dictionary *Documents* is the detail instruction.  
-Dictionary *XenForo* is the setup package.
+Dictionary *XenForo* is the setup package.  
 Dictionary *Language* is for XenForo.(just import the *LANGUAGE*.xml)
 
